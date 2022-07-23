@@ -75,3 +75,13 @@ proc name | description | link
 ----------- | ----------- |-----------
 dw.usp_load_trips | Procedure to load new trips to the Data Warehouse area| [link to script](sql%20scripts/procedures.sql)
 log.usp_log | Procedure to update/insert log information |[link to script](sql%20scripts/procedures.sql)
+
+## Azure Function
+
+The function that was created is in python that is resposible to collect the data from Azure SQL Server and delivery using REST API.
+
+Endpoint available: https://app-trips-function.azurewebsites.net/api/trips-details <br>
+Parameter: query (valid values are: vw_latest_region,log_trips_process,vw_trips_average_per_week,vw_regions_per_cheap_mobile_datasource)
+
+Request example: https://app-trips-function.azurewebsites.net/api/trips-details?query=vw_trips_average_per_week
+![image](https://user-images.githubusercontent.com/12244452/180625946-d5f8ecba-2234-4b2b-b616-9586dc33540f.png)
