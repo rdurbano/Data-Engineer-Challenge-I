@@ -47,11 +47,11 @@ ctr_file_path | File name that is the origin.
 
 This columns are used to load the data to DW area and log information.
 
-<br>
+
 #### dw.trips 
 Data loaded from stg.trips applying the challenges requirements.That is the layer to consume the information.
 
-<br>
+
 #### log.trips_process
 Where is registered the LOG of the ingestion process and it's can be consume using the API too.The schema contains the columns below:
 column name | description
