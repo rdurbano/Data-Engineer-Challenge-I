@@ -85,3 +85,6 @@ Parameter: query (valid values are: vw_latest_region,log_trips_process,vw_trips_
 
 Request example: https://app-trips-function.azurewebsites.net/api/trips-details?query=vw_trips_average_per_week
 ![image](https://user-images.githubusercontent.com/12244452/180625946-d5f8ecba-2234-4b2b-b616-9586dc33540f.png)
+
+[link to function](function-app/api/trips-details/__init__.py) and if you want debug this on your own machine you need to install https://github.com/Azure/azure-functions-core-tools
+
