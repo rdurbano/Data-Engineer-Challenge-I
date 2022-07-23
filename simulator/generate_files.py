@@ -6,7 +6,7 @@ try:
     entries = 3
     local_file_path =r"C:\Users\Usuario\Desktop\jobsity\sample"
     local_file_name = "trips.csv"
-    blob_service_client = BlobServiceClient.from_connection_string("DefaultEndpointsProtocol=https;AccountName=jobsitystorage;AccountKey=80REJ7jhTEc/hcDImelKifw7x0U25DDEksx/Z1sRQi1GqLK5f5TccP4A2Xbn4dSvJ0u65xwsmb0E+AStRupv4w==;EndpointSuffix=core.windows.net")
+    blob_service_client = BlobServiceClient.from_connection_string("GET CONNECTION STRING ON KEY VAULT")
     
     for i in range(entries):
         destination_file_name = f"trips_{i}.csv"
