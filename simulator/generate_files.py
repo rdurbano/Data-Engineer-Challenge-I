@@ -4,7 +4,7 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, _
 
 try:
     entries = 3
-    local_file_path =r"C:\Users\Usuario\Desktop\jobsity\sample"
+    local_file_path =r"C:\Users\Usuario\Desktop\jobsity\documentation"
     local_file_name = "trips.csv"
     blob_service_client = BlobServiceClient.from_connection_string("GET CONNECTION STRING ON KEY VAULT")
     
