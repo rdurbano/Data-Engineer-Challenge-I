@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "5a8b2a80-6521-4bea-91cf-daea93fbe569",
+		"name": "jobsity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10048165"
+	},
+	"item": [
+		{
+			"name": "vw_regions_per_cheap_mobile_datasource",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app-trips-function.azurewebsites.net/api/trips-details?query=vw_regions_per_cheap_mobile_datasource",
+					"protocol": "https",
+					"host": [
+						"app-trips-function",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"trips-details"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "vw_regions_per_cheap_mobile_datasource"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vw_trips_average_per_week",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app-trips-function.azurewebsites.net/api/trips-details?query=vw_trips_average_per_week",
+					"protocol": "https",
+					"host": [
+						"app-trips-function",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"trips-details"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "vw_trips_average_per_week"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vw_latest_region",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app-trips-function.azurewebsites.net/api/trips-details?query=vw_latest_region",
+					"protocol": "https",
+					"host": [
+						"app-trips-function",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"trips-details"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "vw_latest_region"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
